@@ -71,9 +71,6 @@ const Wordle = ({ isGameOver, endGame, startGame, resetGame }) => {
         {/* Display the title of the Wordle game */}
         <h1>Wordle</h1>
 
-        {/* Display the solution (for debugging purposes) */}
-        <p>{solution}</p>
-
         {/* Render the WordleGrid component */}
         <WordleGrid currentGuess={currentGuess} guesses={guesses} turn={turn} />
 
